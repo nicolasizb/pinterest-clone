@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pinterest-clone';
+  
+  hovered: boolean = false;
+
+  toggleHover() {
+    this.hovered = !this.hovered;
+  }
 }
